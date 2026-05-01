@@ -1,0 +1,20 @@
+# BrainVault Backend Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Web Framework ───────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# ── RAG + Knowledge Graph ───────────────────────────────────────────
+raganything[all]>=0.1.0
+lightrag-hku>=1.0.0
+
+# ── File Watching ───────────────────────────────────────────────────
+watchdog>=4.0.0
+
+# ── Environment & Config ────────────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ── Utilities ───────────────────────────────────────────────────────
+networkx>=3.3
